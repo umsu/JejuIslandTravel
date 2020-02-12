@@ -1,0 +1,316 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+/*##############################################################*/
+/*배너 사진  CSS                                                 */
+/*##############################################################*/
+	.route21 #banner
+	{
+			position: relative;
+			background: url(../images/route21_banner.jpg) center;
+			background-size: cover;
+			padding: 6em;
+	}
+/*##############################################################*/
+/* route21 메인페이지                                              */
+/*##############################################################*/
+	body{
+		font-family: 'Nanum Gothic', serif;
+	}
+	.container {
+		padding-top:	67px;
+		padding-bottom: 60px;
+	}
+	#title{
+		float: left;
+		width: 580px;
+	}
+	#title h1{
+		font-weight: bolder;
+		font-size: 37px;
+		color: #4c4c4c; /*차콜색*/
+	}
+	#title p{
+		color: #4c4c4c;
+		font-size: 1.2em;
+		font-weight: lighter;
+		letter-spacing: 0.3em;
+		margin-top: 0.3em;
+	}
+	#forpic{
+		position: relative;
+		width: 783px;
+		height: 400px;
+		margin-bottom: 25px;
+	}
+	#main{
+		position: absolute;
+		bottom: 0px;
+	}
+	#leftsec{
+		width: 783px;
+		height: auto;
+	}
+	#leftsec p{
+		line-height: 25px;
+	}
+	#leftsec p:nth-child(3){
+		padding-top: 23px;
+		line-height: 25px;
+	}
+	#right{
+		float: right;
+		margin-top: 15px;
+		width: 350px;
+		height: 800px;
+	}
+	.text{
+		font-size: 13px;
+	}
+	#right hr{
+		border-bottom : 0px;
+		border-top-width: 1px;
+	}
+	#rightsec{
+	float: left;
+	}
+	#rightsec h1{
+		font-weight: bolder;
+		font-size: 21px;
+		color: #4c4c4c; /*차콜색*/
+	}
+	#table > ul{
+		margin-top:  73px;
+		padding: 0px;
+	}
+	#table ul > li > p:first-child{
+		font-weight: lighter;
+		font-size: 13px;
+		letter-spacing: 0.05em;
+		margin-bottom:25px;
+		color:#a2a2a2
+	}
+	#table ul > li > p:nth-child(2n+1){
+		margin-top:30px;
+		line-height: 24px;
+	}
+	#table img{
+		float:left;
+		width:80px;
+		height: 80px;
+		margin-right: 15px;
+	}
+	hr{
+		color:#a2a2a2;
+
+	}
+	#second_section{
+		position: relative;
+		padding: 0.7em;
+		background-color: #f2f2f2;
+	}
+	#section01 h1{
+		padding-bottom: 10px;
+		font-size: 23px;
+		letter-spacing: 0.05em;
+		color: #4c4c4c;
+	}
+	#section01 a{
+		color: black;
+	}
+ #map{
+	width:700px;
+	height:400px;
+	border-radius: 7px;
+ }
+	#section02{
+		float: right;
+		display: inline-block;
+		margin-top: -39%;
+		margin-right: 10%;
+	}
+	#section02 h1{
+	display: inline;
+	}
+	#section02 p{
+		display: inline;
+		font-size: 13px;
+		font-weight: lighter;
+	}
+	#section02 hr{
+		height: 390px;
+		width: 0px;
+		border-right: 0px;
+		border-left-width: 3px;
+		border-color: #2d7dff;
+		margin-right: 210px;
+		margin-top: 51px;
+	}
+	.circle{ /*원을 생성하는 클래스*/
+		width:15px;
+		height: 15px;
+		border: 1px solid #00aef6;
+		background-color: #00aef6;
+		color:#fff;
+		font-weight: bold;
+		font-size:14px;
+		border-radius: 50%;
+		text-align: center;
+		line-height: 14px;
+		margin-left: 66px;
+	}
+	.circle:nth-child(n+2){
+		margin-top:-410px;
+	}
+	.circle:nth-child(n+3){
+		margin-bottom: 48.5px;
+	}
+	#sub_sec>a:hover{
+		text-decoration: underline;
+	}
+	#distance{
+		position:absolute;
+		width:50px;
+		height:10px;
+		text-align: right;
+		display:inline;
+		color: #00aef6;
+		margin-left: -72px;
+		font-weight: bold;
+	}
+	#sub_sec{
+		color:black;
+		width:250px;
+		height: 59px;
+		margin-left: 39px;
+		margin-top: -14.5px;
+		text-align: left;
+		font-size: 19px;
+		font-weight: lighter;
+	}
+	#sub_sec h5{
+		color:#a2a2a2;
+		font-size: 14px;
+		font-weight: lighter;
+		margin-top: 8.5px;
+	}
+	#third_section{
+		padding-top: 15px;
+		background-color: #1d1d1d;
+		position: relative;
+	}
+	#third_section h1{
+		font-size: 23px;
+		letter-spacing: 0.05em;
+		color:#fff;
+	}
+	#third_section ul{
+		padding-top: 30px;
+	}
+	#third_section li{
+		margin-left: -38px;
+		margin-bottom: 12px;
+	}
+	#third_section li:nth-child(n+2){
+		margin-top: 14px;
+	}
+	#third_section a{
+	font-size: 15px;
+	font-weight: lighter;
+	}
+	#third_section hr{
+			margin-left: -38px;
+			border-bottom : 0px;
+			border-top-width: 1px;
+	}
+	#lastsection{
+		width: 350px;
+	}
+	#lastsection2{
+		width: 350px;
+		float: left;
+		display: inline-block;
+		margin-top: -232px;
+		margin-left: 413px;
+	}
+	#lastsection a, #lastsection2 a {
+		font-size: 13.5px;
+		letter-spacing: 0.5px;
+	}
+	#lastsection3{
+		width: 350px;
+		float: right;
+		display: inline-block;
+		margin-top: -245px;
+		margin-right: 3px;
+	}
+	#lastsection3 img{
+		margin-top: 51px;
+		width:350px;
+		height:157px;
+		border-radius: 15px;
+	}
+	#button{ /*사용안함!*/
+		margin-top: 22px;
+		width:120px;
+		height:20px;
+		border: 1px solid #e95d3c;
+		padding: 10px;
+		text-align: center;
+		line-height: 20px;
+		background-color: #e95d3c;
+		border-radius: 12px;
+		color: #fff;
+		font-size: 17px;
+		font-weight: bold;
+	}
+	#map{
+		margin-top: 30px;
+	}
+	.picture_array{
+		width: 375px;
+		height: 220px;
+		background-repeat: no-repeat;
+		background-size: cover;
+		float: left;
+		transition: 0.5s;
+	}
+	.pichover_overflow{
+		overflow: hidden;
+		width: 375px;
+		height: 220px;
+		float: left;
+		margin-left: -20px;
+	}
+	#array_pic01{
+		background-image: url('../images/insta_pic03.jpg');
+	}
+	#array_pic01:hover{
+		transform: scale(1.1,1.1);
+		transition: 0.5s;
+	}
+	#hover_title{
+		width:373px;
+		height:218px;
+		background-color: rgba(0, 0, 0, 0.6);
+		position: absolute;
+		float: left;
+		opacity: 0;
+		z-index: 10;
+		transition: 0.5s;
+	}
+	#hover_title h2{
+		padding-top: 75px;
+		padding-left: 5px;
+		margin-left: 5px;
+		letter-spacing: 5px;
+		font-size: 25px;
+		font-weight: lighter;
+		text-align: center;
+		color: white;
+	}
+	#hover_title p{
+		display: inline;
+		letter-spacing: 5px;
+		font-weight: lighter;
+		margin-left: 136px;
+		color: white;
+	}

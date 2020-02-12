@@ -1,0 +1,340 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css); /*body font*/
+@import url('https://fonts.googleapis.com/css?family=Rajdhani');/*number font*/
+/*##############################################################*/
+/*배너 사진  CSS                                                 */
+/*##############################################################*/
+	.localfood_03 #banner
+	{
+			position: relative;
+			background: url(../images/localfood_03_banner.jpg) center;
+			background-size: cover;
+			padding: 6em;
+	}
+/*##############################################################*/
+/* localfood_03 메인페이지                                              */
+/*##############################################################*/
+	body{
+		font-family: 'Nanum Gothic', serif;
+	}
+	.container {
+		padding-top:	67px;
+		padding-bottom: 60px;
+	}
+  #midsection{
+    padding-top: 37px;
+		/*box-shadow:0px 0.5px 8px black; div아래 그림자*/
+  }
+  #midsection  img{
+    width: 300px;
+    height: 450px;
+    border-radius: 2px;
+  }
+	#main_pic{
+		padding-top: 15px;
+	}
+	#main_pic img:first-child{
+		padding-left: 75px;
+	}
+	#main_pic img:first-child, #main_pic>img:nth-child(2){
+		padding-right: 70px;
+	}
+	#main_pic a:hover{
+		color: white;
+	}
+	#hover_01{
+		width:300px;
+	}
+	#hover_02{
+		float: right;
+		width: auto;
+		height: auto;
+		margin-top: -454px;
+	}
+	#hover_03{
+		float: right;
+		margin-top: -454px;
+		margin-right: 378px;
+	}
+	/*사진 hover 태그 ---------- 시작*/
+	#pic_hover{
+		position: absolute;
+		width:300px;
+		height: 150px;
+		margin-top: -155px;
+		margin-left: 75px;
+		border-radius: 0 0 2px 2px;
+		background-color: rgba(0, 0, 0, 0.6);
+		opacity: 0;
+		transition: opacity 0.7s
+	}
+	#hover_01:hover #pic_hover,#hover_02:hover #pic_hover,#hover_03:hover #pic_hover{
+		opacity: 1;
+	}
+	#article_food{
+		padding: 10px;
+			color: white;
+	}
+	#article_food h1 > p{
+		font-size: 11px;
+		margin-left: -5px;
+		letter-spacing: 0.02em;
+		font-weight: lighter;
+		display: inline;
+	}
+	#article_food a{
+		float:right;
+		color:white;
+		font-size:10.5px;
+		font-style: italic;
+		margin-top:-10px;
+		letter-spacing: 0.1em;
+		text-decoration:underline;
+	}
+	#food_li_clock{
+		margin-left: 5px;
+		margin-top:10px;
+		float: left;
+	}
+	#article_food>p:nth-child(2n+1){
+		padding-left: 35px;
+		margin-top: 12px;
+		font-size: 13px;
+	}
+	#food_li_telephone{
+		margin-left: 5px;
+		margin-top: -3px;
+		float: left;
+	}
+	/*사진 hover 태그 -----------끝*/
+	#textdiv {
+		width:450px;
+		height: auto;
+		margin-top: -30px;
+		padding-left: 75px;
+	}
+	#textdiv p{
+		margin-top: 0.3em;
+		color: #4c4c4c;
+		font-size: 1.2em;
+		font-weight: lighter;
+		letter-spacing: 0.3em;
+	}
+	#textdiv h1{
+		font-weight: bolder;
+		font-size: 37px;
+		color: #4c4c4c;
+	}
+	hr{
+		color:#a2a2a2;
+	}
+	/*영양성분 div -----------시작*/
+	#second_section{
+		height: 380px;
+		background-color: #9d7ed0;
+	}
+	#see_the_number{
+		margin-top: 40px;
+		width:	1150px;
+		height: 250px;
+		padding-left: 43px;
+		float: left;
+		color: ;
+	}
+	#see_the_number h1{
+		font-family: 'Rajdhani', sans-serif;
+		letter-spacing: 3px;
+		font-size: 55px;
+		font-weight: lighter;
+		font-style: normal;
+		text-align: center;
+	}
+	#see_the_number p{
+		text-align: center;
+		font-size: 19px;
+		margin-top: -6px;
+		letter-spacing: 1px;
+		font-weight: bold;
+	}
+	#first_number{
+		width: 210px;
+		height: 250px;
+		margin-left: 70px;
+		float: left;
+	}
+	#second_number{
+		width: 210px;
+		height: 250px;
+		margin-left: 50px;
+		margin-right: 25px;
+		float: left;
+	}
+	#third_number{
+		width: 210px;
+		height: 250px;
+		margin-left: 25px;
+		margin-right: 50px;
+		float: left;
+	}
+	#fourth_number{
+		width: 210px;
+		height: 250px;
+		float: left;
+	}
+	#in_article{
+		margin-left: 20px;
+		text-align: center;
+		width: 170px;
+		height: 120px;
+	}
+	#in_article p{
+		padding: 19px 0px;
+		font-size: 13px;
+		font-weight: lighter;
+		line-height: 19px;
+		color: #202126;
+
+	}
+	#see_the_number hr{
+		height: 180px;
+		border-right: 0px;
+		border-left-width: 1.5px;
+		border-color: black;
+		margin-top: -90px;
+		margin-left: -25px;
+		position: absolute;
+	}
+/*영양성분 div -----------끝*/
+/*폴더형식 div -----------시작*/
+	#third_section{
+		height: 655px;
+		background-color: #efefef;
+	}
+	#folder_choice{
+		width:1220px;
+		height: 72px;
+	}
+	#folder_choice a{
+		color: black;
+	}
+	#folder_choice>ul{
+		overflow: hidden;
+		padding: 0;
+		padding-top:11px;
+	}
+	#folder_choice>ul li{
+		 float: left;
+		 border: 1px solid gray;
+		 height:40px;
+		 padding: 10px 50px;
+		 line-height: 40px;
+		 font-weight: bold;
+	}
+	#folder_choice>ul>a:first-child>li{
+		border-width: 2px;
+		height: 48px;
+		line-height: 48px;
+		margin-top: -7px;
+		border-bottom-width: 0px;
+	}
+	#folder_choice>ul>a:nth-child(2)>li{
+		border-right-width: 0px;
+		border-left-width: 0px;
+/*-------------구분선--------------*/
+		border-width: ;
+		height: ;
+		line-height: ;
+		margin-top: ;
+		border-bottom-width: 2px;
+	}
+	#folder_choice>ul>a:nth-child(3)>li{
+		border-width: ;
+		height: ;
+		line-height: ;
+		margin-top: ;
+		border-bottom-width: 2px;
+		border-left-width: ;
+	}
+	#folder_choice>ul>li:last-child{
+		width: 610px;
+		border-top: 0px;
+		border-left: 0px;
+		border-right: 0px;
+		border-bottom-width: 2px;
+		margin-top: 1px;
+	}
+	#folder_article{
+		width:1200px;
+		height:420px;
+		border: 2px solid gray;
+		border-top: 0px;
+	}
+	#folder_article h1{
+		width:500px;
+		margin-top: 20px;
+		font-weight: lighter;
+		letter-spacing: 1px;
+		line-height: 35px;
+	}
+	#folder_article p{
+		width:480px;
+		margin-top: 50px;
+		letter-spacing: 1px;
+		line-height: 25px;
+	}
+	#folder_article a{
+		color:black;
+	}
+	#folder_article img{
+		width: 500px;
+		height: 330px;
+		border-radius: 8px;
+		float: right;
+	}
+	#folder_article iframe{
+		width: 500px;
+		height: 330px;
+		border-radius: 8px;
+		float: right;
+	}
+	#folder_button{
+		width: 140px;
+		height: 45px;
+		margin-top: 13px;
+		text-align: center;
+		line-height: 45px;
+		border: 1px solid black;
+		border-radius: 5px;
+		float: left;
+		position: relative;
+	}
+	#first_folder{
+		width: 1060px;
+		height: 330px;
+		margin-left: 71px;
+		margin-top: 45px;
+		position: absolute;
+		opacity: 1;
+		z-index:100;
+	}
+	#second_folder{
+		width: 1060px;
+		height: 330px;
+		margin-left: 71px;
+		margin-top: 45px;
+		position: absolute;
+		opacity: 0;
+		z-index:10;
+	}
+	#second_folder h4{
+		display: inline;
+		font-weight: lighter;
+	}
+	#third_folder{
+		width: 1060px;
+		height: 330px;
+		margin-left: 71px;
+		margin-top: 45px;
+		position: absolute;
+		opacity: 0;
+		z-index:1;
+	}

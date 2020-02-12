@@ -1,0 +1,289 @@
+@import url(https://fonts.googleapis.com/css?family=Encode+Sans+Expanded);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+	body {
+		margin: 0px;
+		padding: 0px;
+		min-width: 1310px;
+		background: #180E0B;
+		font-size: 11pt;
+		color: #000000;
+		font-family: 'Nanum Gothic', serif;
+
+	}
+
+	h1, h2, h3 {
+		margin: 0px;
+		padding: 0px;
+	}
+
+	h2 {
+		padding: 0px 0px 20px 0px;
+		letter-spacing: -1px;
+		font-size: 1.8em;
+	}
+
+	a {
+		color: #A2A2A2;
+		text-decoration: none;
+	}
+
+	a:hover {
+		text-decoration: none;
+	}
+
+	ul, ol, li {
+		list-style-type: none;
+	}
+
+		header
+		{
+			margin-bottom: 1em;
+		}
+
+			header h2
+			{
+				font-weight: 600;
+			}
+
+			header .byline
+			{
+				display: block;
+				margin: 0.5em 0 0 0;
+				padding: 0 0 0.5em 0;
+			}
+			.container {
+				width: 1200px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+	#header
+	{
+		position: relative;
+	}
+
+		#header .container
+		{
+			position: relative;
+			padding: 6em 0em;
+		}
+
+	#logo
+	{
+		font-family: 'Encode Sans Expanded', sans-serif;
+		position: absolute;
+		display: block;
+		text-decoration: none;
+		font-size: 2.8em;
+		font-weight: 600;
+		color: #FFF;
+		left: 0em;
+		top: 60px;
+	}
+
+		#logo h1
+		{
+			color: #FFF;
+		}
+
+		#nav
+		{
+		position: absolute;
+		right: 0em;
+		top: 4.5em;
+		}
+		#nav > ul > li
+		{
+			list-style: none;
+			float: left;
+		}
+
+			#nav > ul > li:nth-child(n+2)
+			{
+			margin-left: 10px;
+			}
+			#nav > ul > li:last-child
+			{
+				padding-right: 0;
+			}
+
+			#nav > ul > li  a
+			{
+				display: block;
+				padding: 0.80em 1.2em;
+				letter-spacing: 0.06em;
+				font-size: 1em;
+				outline: 0;
+				color: #FFF;
+			}
+
+			#nav li.active
+			{
+				background: #56c9d6;
+				border-radius: 5px;
+				color: #FFF;
+			}
+
+			#nav li ul {
+				background: gray;
+				display:none;
+				padding:0px;
+				position:absolute;
+				width:150px;
+				z-index:10;
+				box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+			}
+			#nav li ul li {
+				height: 43px;
+				margin-left: -10%;
+			}
+			#nav li ul li a{
+				margin-left: 9%;
+			}
+
+			#nav li ul li:first-child {
+				background-color:#180E0B;
+				height: 20px;
+			}
+
+			#nav li:hover ul {
+				display:block;
+			}
+
+			#nav li ul li:hover:nth-child(n+2) {
+				background-color:	maroon;
+			}
+
+			#banner
+			{
+				position: relative;
+				background: #333 url(../images/banner.jpg) center;
+				background-size: cover;
+				padding: 6em 0em;
+			}
+
+	.homepage #banner
+	{
+				padding: 15em 0em;
+	}
+
+	#midsection
+	{
+		position: relative;
+		padding: 0.7em;
+		background: #FFF;
+	}
+	#midsection a{
+		color:black;
+	}
+	#midsection a:hover{
+		color:black;
+	}
+	#index_textbox{
+		width:265px;
+		height:66px;
+		margin-top: -15px;
+		line-height: 22px;
+		font-size: 13px;
+		margin-right: -17%;
+		line-height: 22px;
+		height: 66px;
+	}
+	#sec{
+		width: 250px;
+		height: auto;
+		margin-top: -1%;
+		padding: 6em 0em;
+		display: inline-block;
+	}
+
+	#sec:first-child{
+		margin-left: 0%;
+	}
+
+	#sec:nth-child(n+2){
+		margin-left: 5%;
+	}
+
+	#sec h2 {
+		margin-top: 20px;
+	}
+
+	#small_section
+	{
+		height: 500px;
+		background-color: #372019;
+		color: #8c5240;
+		padding-top: 60px;
+	}
+	#small_section h1
+	{
+		color: #c0745d;
+	}
+	#first_list{
+		padding-top: 20px;
+		float:left;
+		width:320px;
+		height:430px;
+	}
+	#list_title{
+		margin-top: -10px;
+	}
+
+	#list_div_01{
+		margin-top: 35px;
+		width: 320px;
+		height:110px;
+
+	}
+	#list_div{
+		width: 320px;
+		height:111px;
+		margin-top: 20px;
+	}
+	#second_list{
+		padding-top: 20px;
+		margin-left: 30px;
+		float:left;
+		width:320px;
+		height:430px;
+		position: relative;
+	}
+	#second_list img, #first_list img{
+		width:90px;
+		height: 90px;
+		border-radius: 2px;
+	}
+	#small_section p{
+		margin-top:5px;
+		font-size: 13px;
+		line-height: 23px;
+		letter-spacing:1.2px;
+		color:#8c5240;
+	}
+	#small_section a{
+		color: #c0745d;
+	}
+	#small_section a:hover{
+		text-decoration: underline;
+	}
+	#list_text{
+		width: 210px;
+		height: 97px;
+		float: right;
+	}
+	#list_text h3{
+		color:#c0745d;
+	}
+	#index_youtube{
+		float:left;
+		margin-left: 60px;
+		width:470px;
+		height:450px;
+	}
+	#index_youtube_01{
+		width:470px;
+		height: 300px;
+		margin-top: 65px;
+
+	}
